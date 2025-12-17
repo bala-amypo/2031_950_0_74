@@ -1,13 +1,13 @@
 package com.example.demo.repository;
 
 import org.springframework.web.bind.annotation.*;
-import org.sringframework.data.jpa.repository.Jparepository;
+import org.sringframework.data.jpa.repository.JpaRepository;
 import org.sringframework.stereotype.repository;
 
-import com.example.sql.Entitydata.Student;
+import com.example.demo.Entity.Student;
 
-@repository
-public interface StudentRepo extends Jparepository<Student,Integer>{
+@Repository
+public interface StudentRepo extends JpaRepository<Student,Integer>{
   
 }
 
