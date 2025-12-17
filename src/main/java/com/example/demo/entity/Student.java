@@ -1,9 +1,6 @@
 package com.example.demo.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
 public class Student {
@@ -13,10 +10,10 @@ public class Student {
     private String name;
     private String email;
     
-    public int getId() {
+    public Integer getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
     public String getName() {
@@ -30,8 +27,6 @@ public class Student {
     }
     public void setEmail(String email) {
         this.email = email;
-    }
-    
-    
+    } 
 }
 
