@@ -1,4 +1,4 @@
-package com.example.bef.service;
+package com.example.demo.service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,7 +7,7 @@ import java.util.Map;
 
 import org.springframework.stereotype.Service;
 
-import com.example.bef.entity.Student;
+import com.example.demo.entity.Student;
 @Service
 public class Studentservice {
     Map<Integer,Student> details=new HashMap<>();
