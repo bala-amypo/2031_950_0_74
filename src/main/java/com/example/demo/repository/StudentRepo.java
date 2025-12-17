@@ -1,4 +1,4 @@
-package com.example.demo.repository;
+package com.example.sql.repository;
 
 import org.springframework.web.bind.annotation.*;
 import org.sringframework.data.jpa.repository.Jparepository;
